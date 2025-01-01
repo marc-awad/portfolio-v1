@@ -1,0 +1,102 @@
+a:hover,
+body,
+button {
+  color: #adf0dd;
+}
+button,
+section {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+#home,
+body {
+  background-color: #0d1514;
+}
+.skills,
+a,
+article,
+ul {
+  display: flex;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: larger;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  flex-direction: row;
+}
+header {
+  margin-left: 3rem;
+}
+a {
+  text-decoration: none;
+  color: #0bd8b6;
+  margin-right: 1.2rem;
+  align-items: center;
+  transition: color 0.3s;
+}
+a svg {
+  margin-right: 0.3rem;
+}
+article {
+  margin-bottom: 10rem;
+}
+section {
+  flex: 1;
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #111c1b;
+}
+.phello,
+h1 {
+  margin-bottom: 0;
+}
+button {
+  background-color: #0e3b39;
+  padding: 1rem;
+  font-size: large;
+  border-color: #145750;
+}
+h1 {
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 5rem;
+}
+.phello {
+  font-size: 2rem;
+}
+h2,
+h3 {
+  text-align: center;
+}
+h2 {
+  font-size: 3rem;
+}
+.project-section:hover,
+a:hover,
+button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s, color 0.3s;
+  cursor: pointer;
+}
+#home {
+  box-shadow: none;
+}
+.skills {
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+footer p {
+  margin-right: 1rem; 
+}
